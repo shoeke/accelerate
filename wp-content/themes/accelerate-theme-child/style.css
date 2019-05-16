@@ -40,3 +40,34 @@ Text Domain:  accelerate-theme-child
   color: #45ac9d;
   text-transform: uppercase;
 }
+/* case studies */
+.case-study-sidebar {
+  width: 30%;
+  float: left;
+  margin-right: 10%;
+}
+.case-study-images {
+  width: 60%;
+  float: left;
+  margin-top: 20px;
+}
+.case-study-images img {
+  width: 100%;
+}
+.case-study-sidebar h2 {
+  margin: 10px 0 0;
+}
+.case-study-sidebar h5, .case-study-sidebar h6 {
+  text-transform: capitalize;
+  font-size: .75em;
+  margin: 0;
+}
+.case-study-sidebar h5 {
+  color: #ababaa;
+  font-weight: 300;
+}
+.case-study-sidebar h6{
+  font-weight: 500;
+  color: #7c7a7a;
+  margin-top: 12px;
+}
