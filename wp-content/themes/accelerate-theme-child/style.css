@@ -40,6 +40,28 @@ Text Domain:  accelerate-theme-child
   color: #45ac9d;
   text-transform: uppercase;
 }
+/* case studies front-page */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 5em .5em 5em;
+}
+.featured-work h4 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+.sample-case-container {
+list-style: none;
+padding: 10px;
+}
+.sample-case-study figcaption {
+  font-weight: 600;
+  font-size: .85em;
+  text-align: center;
+}
 /* case studies */
 .case-study-sidebar {
   width: 30%;
@@ -53,6 +75,7 @@ Text Domain:  accelerate-theme-child
 }
 .case-study-images img {
   width: 100%;
+  padding-bottom: 20px;
 }
 .case-study-sidebar h2 {
   margin: 10px 0 0;
