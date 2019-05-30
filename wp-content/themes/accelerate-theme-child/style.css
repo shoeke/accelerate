@@ -94,3 +94,16 @@ padding: 10px;
   color: #7c7a7a;
   margin-top: 12px;
 }
+/* social media icons */
+.menu-item i._mi {
+  color: white;
+background-color: #3b3b3b;
+padding: 8px;
+border-radius: 50%;
+list-style: none;
+margin: 5px;
+float: left;
+}
+#menu-social-media-nav {
+  list-style: none;
+}
