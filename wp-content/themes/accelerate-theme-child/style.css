@@ -128,3 +128,25 @@ padding: 10px;
  float: right;
   background-color: #45ac9d;
 }
+/* about page*/
+.about-header-text {
+  color: white;
+  text-align: center;
+  line-height: 1.4;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Accelerate_is_a_strategy_and_marketing_agency_l {
+  font-size: 25px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  text-align: center;
+  position: absolute;
+  left: 314.69px;
+  top: 154.577px;
+  width: 558px;
+  height: 130px;
+  z-index: 72;
+}

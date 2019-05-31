@@ -16,6 +16,7 @@
  TESTING single-about TESTING single-about TESTING single-about
  	<div id="primary" class="site-content sidebar">
  		<div class="main-content" role="main">
+			<?php 			query_posts('post_type=services'); ?>
  			<?php while ( have_posts() ) : the_post();
  				$service = get_field('service');
  				$service_descr = get_field('service_descr');

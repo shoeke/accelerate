@@ -30,7 +30,7 @@ function create_custom_post_types() {
         )
     );
 
-		register_post_type( '$services',
+		register_post_type( 'services',
         array(
             'labels' => array(
                 'name' => __( 'Our Services' ),
