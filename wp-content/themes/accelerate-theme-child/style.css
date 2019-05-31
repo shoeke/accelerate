@@ -136,17 +136,34 @@ padding: 10px;
   width: 50%;
   margin: 0 auto;
 }
-
-.Accelerate_is_a_strategy_and_marketing_agency_l {
-  font-size: 25px;
-  font-family: "Open Sans";
-  color: rgb(255, 255, 255);
-  line-height: 1.4;
+.center-text {
   text-align: center;
-  position: absolute;
-  left: 314.69px;
-  top: 154.577px;
-  width: 558px;
-  height: 130px;
-  z-index: 72;
+}
+.center-text h2 {
+  text-transform: uppercase;
+}
+.service-loop-wrap {
+  margin-bottom: 20px;
+}
+.service-loop-wrap:nth-child(even) .service-text {
+  width: 65%;
+  float: right;
+}
+.service-loop-wrap:nth-child(odd) .service-img {
+  width: 35%;
+  float: right;
+}
+.service-loop-wrap:nth-child(even) .service-img {
+    width: 35%;
+    float: left;
+}
+.service-loop-wrap:nth-child(odd) .service-text {
+  width: 65%;
+  float: left;
+}
+.service-text h2 {
+  margin-top: 0;
+}
+.clearfix-about {
+  clear: both;
 }
