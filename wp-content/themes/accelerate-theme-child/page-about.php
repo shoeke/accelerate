@@ -9,11 +9,10 @@
  * @since Accelerate Marketing 2.0
  */
  get_header(); ?>
-TESTING page-about TESTING  page-about TESTING page-about
-<header class="home-page">
-	<h1 class="about-header-text">
+<header class="home-page about-adjust">
+	<h3 class="about-header-text">
 Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.
-</h1>
+</h3>
 </header>
 	<div id="primary" class="site-content ">
 		<div class="main-content" role="main">
@@ -32,21 +31,24 @@ Accelerate is a strategy and marketing agency located in the heart of NYC. Our g
 				$image_1 = get_field('image_icon');
 				$size = "medium";
 				?>
-				<div class="service-loop-wrap">
-					<div class="flex-wrap">
-						<div class="service-text">
-							<h2><?php the_title(); ?></h2>
-							<p><?php echo $service_descr; ?></p>
-						</div>
-					</div>
+				<div class="flex-wrapper">
+					<div class="service-loop-wrap">
 
-					<div class="service-img">
-						<img src=<?php if($image_1) {
-							echo wp_get_attachment_image( $image_1, $size );
-						}?>
+							<div class="service-text">
+								<h2><?php the_title(); ?></h2>
+								<p><?php echo $service_descr; ?></p>
+							</div>
+
+
+						<div class="service-img">
+							<img src=<?php if($image_1) {
+								echo wp_get_attachment_image( $image_1, $size );
+							}?>
+						</div>
+						<div class="clearfix-about"></div>
 					</div>
-					<div class="clearfix-about"></div>
 				</div>
+
 
 
 		<?php endwhile; // end of the loop. ?>
