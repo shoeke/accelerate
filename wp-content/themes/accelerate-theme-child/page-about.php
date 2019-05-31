@@ -15,7 +15,7 @@ TESTING page-about TESTING  page-about TESTING page-about
 Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.
 </h1>
 </header>
-	<div id="primary" class="site-content sidebar">
+	<div id="primary" class="site-content ">
 		<div class="main-content" role="main">
 			<div class="center-text">
 				<h2>Our Services</h2>
@@ -33,10 +33,13 @@ Accelerate is a strategy and marketing agency located in the heart of NYC. Our g
 				$size = "medium";
 				?>
 				<div class="service-loop-wrap">
-					<div class="service-text">
-						<h2><?php the_title(); ?></h2>
-						<p><?php echo $service_descr; ?></p>
+					<div class="flex-wrap">
+						<div class="service-text">
+							<h2><?php the_title(); ?></h2>
+							<p><?php echo $service_descr; ?></p>
+						</div>
 					</div>
+
 					<div class="service-img">
 						<img src=<?php if($image_1) {
 							echo wp_get_attachment_image( $image_1, $size );
