@@ -49,9 +49,12 @@ Accelerate is a strategy and marketing agency located in the heart of NYC. Our g
 					</div>
 				</div>
 
-
-
 		<?php endwhile; // end of the loop. ?>
+		
+		<div class="work-with-us">
+			<h2>Interested in working with us?</h2>
+			<a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
+		</div>
 
 
 		</div><!-- .main-content -->
