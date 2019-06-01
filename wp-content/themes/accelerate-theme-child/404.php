@@ -20,7 +20,7 @@ get_header(); ?>
 				<div class="image404-container">
 
 				</div>
-				<h2 class="special-font">Egads! What happened?</h2>
+				<a class="button special-font button-right" href="<?php echo site_url('/home/') ?>">Egads! Go Home!</a>
 			</div>
 		</div><!-- .main-content -->
 

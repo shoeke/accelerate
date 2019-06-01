@@ -206,7 +206,7 @@ padding: 10px;
 .image404-container {
   background-image: url("img/smarty-03.png");
   width: 645px;
-  height: 648px;
+  height: 600px;
   margin: 0 auto;
   background-size: cover;
   background-position: center;
@@ -214,9 +214,10 @@ padding: 10px;
 }
 .special-font {
   font-family: "Comfortaa", "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 2em;
-  color: #bf2929;
-  text-align: center;
-  margin-top: 0;
+  font-size: 28px;
+  padding: 15px 20px;
+}
+.button-right {
+  float: right;
+  margin: 15px;
 }
