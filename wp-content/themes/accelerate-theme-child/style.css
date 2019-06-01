@@ -94,6 +94,21 @@ padding: 10px;
   color: #7c7a7a;
   margin-top: 12px;
 }
+/* twitter widget front page */
+.blog-post {
+  width: 48%;
+}
+.recent-tweets .blog-post {
+  float: right;
+}
+.recent-posts {
+  margin-right: 2%;
+}
+.recent-tweets {
+  margin-left: 2%;
+}
+
+
 /* social media icons */
 
 .menu-item i._mi {
