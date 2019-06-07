@@ -60,8 +60,8 @@ function accelerate_theme_child_widget_init() {
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
 
-//add_action( 'admin_bar_menu', 'show_template' );
-//function show_template() {
-//global $template;
-//print_r( $template );
-//}
+add_action( 'admin_bar_menu', 'show_template' );
+function show_template() {
+global $template;
+print_r( $template );
+}

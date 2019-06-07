@@ -19,6 +19,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
+				<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 

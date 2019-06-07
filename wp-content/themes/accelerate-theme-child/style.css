@@ -94,13 +94,14 @@ padding: 10px;
   color: #7c7a7a;
   margin-top: 12px;
 }
+.updates-wrapper {
+  display: flex;
+}
+.updates-wrapper .blog-post {
+  width: 98%;
+}
 /* twitter widget front page */
-.blog-post {
-  width: 48%;
-}
-.recent-tweets .blog-post {
-  float: right;
-}
+
 .recent-posts {
   margin-right: 2%;
 }
@@ -118,7 +119,8 @@ padding: 10px;
   border-radius: 50%;
   list-style: none;
   margin: 5px;
-  float: left;
+  float: right;
+
 }
 #menu-social-media-nav {
   list-style: none;
@@ -235,4 +237,14 @@ padding: 10px;
 .button-right {
   float: right;
   margin: 15px;
+}
+
+/* mailchimp widget */
+
+#chimp-button{
+  font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+  color: #fff;
+  background: #45ab9d;
+  padding: 1em 3.75em;
+  text-align: center;
 }
